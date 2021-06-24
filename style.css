@@ -5,7 +5,7 @@ Date:
 
 :root{
     --main-bg-colour: #05445e;
-    --sec-bg-colour: #189ab4;
+    --sec-bg-colour: ;
     --main-colour: #d4f1f4;
     --sec-colour: #75e6da;
 }
@@ -19,6 +19,8 @@ Date:
     "side1 section1 section1"
     "section2 videoSection side2"
     "footer footer footer";
+    grid-gap: 5px;
+    background-color: #000099;
 }
 
 .container > div{ /*DO NOT REMOVE*/
@@ -27,32 +29,35 @@ Date:
 
 .header{ /*DO NOT REMOVE*/
     grid-area: header;
-    background-color: var(--main-bg-colour);
+    background-color:  #000;
     color: var(--main-colour);
 }
 
 .main{ /*DO NOT REMOVE*/
     grid-area: main;
-    background-color: var(--sec-bg-colour);
+    background-color: #000099;
     color: var(--main-colour);
 }
 
 .side1{ /*DO NOT REMOVE*/
     grid-area: side1;
-    background-color: var(--main-colour);
+    color:#ffffff;
+    background-color:  #000099;
 }
 
 .side2{ /*DO NOT REMOVE*/
     grid-area: side2;
-    background-color: var(--main-colour);
+    background-color:black);
 }
 
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
+    color:#ffffff;
 }
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
+    color:#ffffff;
 }
 
 .videoSection{ /*DO NOT REMOVE*/
@@ -61,6 +66,6 @@ Date:
 
 .footer{ /*DO NOT REMOVE*/
     grid-area: footer;
-    background-color: var(--main-bg-colour);
-    color: var(--main-colour);
+    background-color:   #000000;
+    color:#ffffff; ;
 }
