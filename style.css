@@ -2,7 +2,7 @@
 Name: 
 Date: 
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 :root{
     --main-bg-colour: #05445e;
     --sec-bg-colour: ;
@@ -31,12 +31,14 @@ Date:
     grid-area: header;
     background-color:  #000;
     color: var(--main-colour);
+    text-align: center;
 }
 
 .main{ /*DO NOT REMOVE*/
     grid-area: main;
     background-color: #000099;
     color: var(--main-colour);
+
 }
 
 .side1{ /*DO NOT REMOVE*/
@@ -53,6 +55,8 @@ Date:
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
     color:#ffffff;
+    font-family: 'Benne', serif;
+    text-align: center;
 }
 
 .section2{ /*DO NOT REMOVE*/
@@ -62,6 +66,7 @@ Date:
 
 .videoSection{ /*DO NOT REMOVE*/
     grid-area: videoSection;
+    text-align: center;
 }
 
 .footer{ /*DO NOT REMOVE*/
