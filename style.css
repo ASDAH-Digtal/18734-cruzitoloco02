@@ -3,6 +3,7 @@ Name:
 Date: 
 */
 @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
 :root{
     --main-bg-colour: #05445e;
     --sec-bg-colour: ;
@@ -49,19 +50,21 @@ Date:
 
 .side2{ /*DO NOT REMOVE*/
     grid-area: side2;
-    background-color:black);
+    background-color:black;
 }
 
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
-    color:#ffffff;
-    font-family: 'Benne', serif;
+    color: #ffffff;
+   font-family: 'Big Shoulders Stencil Display', cursive;
     text-align: center;
 }
 
+
+
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
-      font-family: 'Benne', serif;
+    font-family: 'Big Shoulders Stencil Display', cursive;
     color:#ffffff;
 }
 
