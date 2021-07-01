@@ -76,5 +76,6 @@ Date:
 .footer{ /*DO NOT REMOVE*/
     grid-area: footer;
     background-color:   #000000;
-    color:#ffffff; ;
+    color:#ffffff;
+    text-align: center;
 }
